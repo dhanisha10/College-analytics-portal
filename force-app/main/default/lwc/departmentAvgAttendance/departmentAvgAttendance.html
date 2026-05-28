@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="🏫 Department Wise Attendance">
+        <template if:true={attendanceData}>
+            <template for:each={attendanceData} for:item="dept">
+                <p key={dept.department}>
+                    📌 {dept.department} - {dept.avgAttendance} %
+                </p>
+            </template>
+        </template>
+    </lightning-card>
+</template>

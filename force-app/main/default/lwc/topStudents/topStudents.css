@@ -1,0 +1,20 @@
+.student-card{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    border-bottom:1px solid #eee;
+    font-size:15px;
+}
+
+.medal{
+    font-size:20px;
+}
+
+.name{
+    font-weight:600;
+}
+
+.marks{
+    color:green;
+    font-weight:bold;
+}

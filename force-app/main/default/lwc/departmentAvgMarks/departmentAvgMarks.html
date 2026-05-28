@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="📊 Department Wise Average Marks">
+        <template if:true={marksData}>
+            <template for:each={marksData} for:item="dept">
+                <p key={dept.department}>
+                    🎓 {dept.department} - {dept.avgMarks}
+                </p>
+            </template>
+        </template>
+    </lightning-card>
+</template>
