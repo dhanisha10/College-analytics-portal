@@ -2,6 +2,10 @@
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
+## Demo video
+this gives u a clear clarification about how this projects works.(https://drive.google.com/file/d/1ffAqk7PR5cefRn0vwKMZMNhLam6bQGp0/view?usp=drivesdk)
+
+
 ## How Do You Plan to Deploy Your Changes?
 
 Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
